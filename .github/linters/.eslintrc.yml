@@ -13,6 +13,8 @@ ignorePatterns:
   - '**/node_modules/.*'
   - '**/dist/.*'
   - '**/coverage/.*'
+  - '.devcontainer/**'
+  - '.prettierrc.*'
   - '*.json'
 
 parser: '@babel/eslint-parser'
