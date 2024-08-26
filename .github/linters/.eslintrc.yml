@@ -13,9 +13,10 @@ ignorePatterns:
   - '**/node_modules/.*'
   - '**/dist/.*'
   - '**/coverage/.*'
-  - '.devcontainer/**'
-  - '.prettierrc.*'
-  - '*.json'
+  - '**/.devcontainer/**'
+  - '**/.prettierrc.*'
+  - '**/package.json'
+  - '**/package-lock.json'
 
 parser: '@babel/eslint-parser'
 
